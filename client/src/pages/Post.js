@@ -45,7 +45,7 @@ function Post() {
     axios.delete(`http://localhost:3001/comments/${id}`,{headers:{accessToken:localStorage.getItem('accessToken')}
   }).then(() =>{
     setComments(comments.filter((val) => {
-      return val.id != id
+      return val.id !== id
     }))
   })
   }
