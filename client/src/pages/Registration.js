@@ -25,7 +25,7 @@ function Registration() {
                      <Form className="formContainer">                 
                          <label>Username:</label>
                          <ErrorMessage name="username" component="span"/>
-                         <Field autocomplete="off" id="inputCreatePost" name ="username" placeholder ="(Ex. Tukuncho123...)" />
+                         <Field autocomplete="off" id="inputCreatePost" name ="username" placeholder ="(Ex. User123...)" />
                         
 
                          <label>Password:</label>
